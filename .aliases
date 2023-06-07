@@ -1,0 +1,26 @@
+
+# ls aliases
+alias lsa='ls -ah'
+alias ll='ls -lh'
+alias lla='ls -alh'
+
+# Shorthand for securely shredding files and deleting them
+alias shred='shred -uz --iterations=10'
+
+# System control
+alias susp="systemctl suspend"
+#alias r="source ~/.zshrc"
+alias free="free -h"
+
+# Linux version of OSX pbcopy and pbpaste.
+#alias pbcopy="xsel — clipboard — input"
+#alias pbpaste="xsel — clipboard — output"
+alias pbcopy="xclip -selection clipboard"
+alias pbpaste="xclip -selection clipboard -o"
+
+# Aliases to make it easy to do the Pomodoro technique with the command line
+alias pomodorostrt='sleep 1500 && notify-send "End of 25 minutes pomodoro. Time for a break."'
+alias pomodorobrk='sleep 300 && notify-send "End of the pomodoro break."'
+alias pomodoro='sleep 1500 && notify-send "End of 25 minutes pomodoro. Time for a break."; sleep 300 && notify-send "End of the pomodoro break."'
+alias pomodoroz='nohup sh -c '"'"'sleep 1500 && zenity --warning --text="25 minutes passed"'"'"' &'
+
