@@ -1,0 +1,12 @@
+[user]
+	name = Pieter Brandwijk
+	email = pieter@pbrandwijk.com
+[core]
+	autocrlf = input
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[remote "origin"]
+	prune = true
+
