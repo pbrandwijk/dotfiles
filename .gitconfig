@@ -3,6 +3,7 @@
 	email = pieter@pbrandwijk.com
 [core]
 	autocrlf = input
+	commentchar = ";"
 [init]
 	defaultBranch = main
 [push]
