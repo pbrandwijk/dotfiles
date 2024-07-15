@@ -110,14 +110,20 @@ HISTFILE="$HOME/.zsh_history"
 # Otherwise zsh uses the emacs keymap with Emacs-style default key bindings.
 export VISUAL=vim
 
-# Add ruby home, defined in $HOME/.gemrc
-[ -f "$HOME/.gem/ruby/2.7.0" ] && export RUBY_HOME="$HOME/.gem/ruby/2.7.0"
+# Add ruby gem home
+export GEM_HOME="$HOME/.gem"
+
+# Add ruby home
+export RUBY_HOME="$GEM_HOME/ruby/3.1.0"
 
 # Add ruby bin to path
-[ -f "$HOME/.gem/ruby/2.7.0" ] && export PATH="$PATH:$RUBY_HOME/bin"
+export PATH="$PATH:$RUBY_HOME/bin"
 
 # Add current directory to search path so scripts don't need the "./" prefix
 export PATH="$PATH:."
+
+# Add user bin directory to the path
+export PATH="$PATH:$HOME/bin"
 
 # Gradle home
 [ -f "$HOME/.gradle" ] && export GRADLE_USER_HOME="$HOME/.gradle"
