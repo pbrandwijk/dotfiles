@@ -4,3 +4,6 @@
 
 -- PB: English, Dutch and Spanish spelling
 vim.opt.spelllang = {"en", "nl", "es"}
+
+-- Turn off smooth scrolling
+vim.g.snacks_animate = false
