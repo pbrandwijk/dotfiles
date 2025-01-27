@@ -4,6 +4,7 @@
 [core]
 	autocrlf = input
 	commentchar = ";"
+	editor = nvim
 [init]
 	defaultBranch = main
 [push]
