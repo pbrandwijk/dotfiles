@@ -2,8 +2,9 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
--- Map "hh" key sequence to <Esc> in insert mode
+-- Map "hh" key sequence to <Esc> in insert mode and visual mode
 vim.keymap.set('i', 'hh', '<Esc>')
+vim.keymap.set('v', 'hh', '<Esc>')
 
 -- Easier window navigation
 vim.keymap.set('n', '<C-H>', '<C-W>h')
