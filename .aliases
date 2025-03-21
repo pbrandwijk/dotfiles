@@ -24,3 +24,5 @@ alias pomodorobrk='sleep 300 && notify-send "End of the pomodoro break."'
 alias pomodoro='sleep 1500 && notify-send "End of 25 minutes pomodoro. Time for a break."; sleep 300 && notify-send "End of the pomodoro break."'
 alias pomodoroz='nohup sh -c '"'"'sleep 1500 && zenity --warning --text="25 minutes passed"'"'"' &'
 
+# Quick access
+alias lg='lazygit'
