@@ -26,3 +26,18 @@ alias pomodoroz='nohup sh -c '"'"'sleep 1500 && zenity --warning --text="25 minu
 
 # Quick access
 alias lg='lazygit'
+alias q='qalc -t -b 10'
+alias weight='cd ~/development/weight/ && nvim 2025.txt'
+alias acc='cd ~/development/accounting/ && nvim 2025.journal'
+alias dots='cd ~/dotfiles/ && nvim'
+alias notes='cd ~/Sync/Notes/ && nvim'
+
+# Ledger
+alias h19="hledger -f ~/development/accounting/2019.journal"
+alias h20="hledger -f ~/development/accounting/2020.journal"
+alias h21="hledger -f ~/development/accounting/2021.journal"
+alias h22="hledger -f ~/development/accounting/2022.journal"
+alias h23="hledger -f ~/development/accounting/2023.journal"
+alias h24="hledger -f ~/development/accounting/2024.journal"
+alias h25="hledger -f ~/development/accounting/2025.journal"
+alias f="hledger -f ~/development/accounting/familia.journal"
