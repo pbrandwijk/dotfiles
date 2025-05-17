@@ -15,7 +15,10 @@ vim.keymap.set('n', '<C-S>', '<C-W>l')
 -- Easy access to beginning and end of line
 vim.keymap.set('n', '-', '$')
 vim.keymap.set('n', '_', '^')
+vim.keymap.set('v', '-', '$')
+vim.keymap.set('v', '_', '^')
 
 -- Obsidian notes
 vim.keymap.set('n', 'md', '<cmd>ObsidianToday<cr>')
 vim.keymap.set('n', 'mt', '<cmd>ObsidianTemplate<cr>')
+vim.keymap.set('n', 'mf', '<cmd>ObsidianFollowLink<cr>')
