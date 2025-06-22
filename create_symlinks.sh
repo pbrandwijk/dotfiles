@@ -2,6 +2,7 @@
 
 echo -e "so ~/dotfiles/.vimrc\n" > ~/.vimrc
 echo -e "source ~/dotfiles/.zshrc\n" > ~/.zshrc
+echo -e "source ~/dotfiles/.bashrc\n" > ~/.bashrc
 
 ln -s -T ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s -T ~/dotfiles/.aliases ~/.aliases
