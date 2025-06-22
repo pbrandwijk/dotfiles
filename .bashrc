@@ -35,8 +35,16 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=50000
+HISTFILESIZE=50000
+
+# Get aliases from the general aliases file
+if [ -f "$HOME/.aliases" ]; then
+    . "$HOME/.aliases"
+fi
+
+# Add path of ghcup binaries
+[ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env"
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
