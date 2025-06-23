@@ -29,7 +29,8 @@ return {
       -- Optional, if you want to change the date format for the ID of daily notes.
       date_format = "%Y-%m-%d",
       -- Optional, if you want to change the date format of the default alias of daily notes.
-      alias_format = "%Y-%m-%d-%a",
+      --alias_format = "%Y-%m-%d-%a",
+      alias_format = "%A %d %B %Y",
       -- Optional, default tags to add to each new daily note created.
       default_tags = { "daily-notes" },
       -- Optional, if you want to automatically insert a template from your template directory like 'daily.md'
