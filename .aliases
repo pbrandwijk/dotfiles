@@ -9,7 +9,7 @@ alias shred='shred -uz --iterations=10'
 
 # System control
 alias susp="systemctl suspend"
-#alias r="source ~/.zshrc"
+alias r="source ~/.bashrc"
 alias free="free -h"
 
 # Linux version of OSX pbcopy and pbpaste.
@@ -26,6 +26,7 @@ alias pomodoroz='nohup sh -c '"'"'sleep 1500 && zenity --warning --text="25 minu
 
 # Quick access
 alias vim="nvim"
+alias vi="nvim"
 alias lg='lazygit'
 alias q='qalc -t -b 10'
 alias weight='cd ~/vcs/weight/ && nvim 2025.txt'
