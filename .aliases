@@ -23,6 +23,8 @@ alias pomodorostrt='sleep 1500 && notify-send "End of 25 minutes pomodoro. Time 
 alias pomodorobrk='sleep 300 && notify-send "End of the pomodoro break."'
 alias pomodoro='sleep 1500 && notify-send "End of 25 minutes pomodoro. Time for a break."; sleep 300 && notify-send "End of the pomodoro break."'
 alias pomodoroz='nohup sh -c '"'"'sleep 1500 && zenity --warning --text="25 minutes passed"'"'"' &'
+alias pst='nohup sh -c '"'"'sleep 1500 && zenity --warning --text="25 minuten voorbij, tijd voor pauze"'"'"' &'
+alias pbr='nohup sh -c '"'"'sleep 300 && zenity --warning --text="5 minuten pauze voorbij"'"'"' &'
 
 # Quick access
 alias vim="nvim"
