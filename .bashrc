@@ -39,6 +39,12 @@ shopt -s histappend
 HISTSIZE=50000
 HISTFILESIZE=50000
 
+# set default editor
+export EDITOR="nvim"
+
+# don't clear the screen after quitting a manual page
+export MANPAGER="less -X"
+
 # Get aliases from the general aliases file
 if [ -f "$HOME/.aliases" ]; then
     . "$HOME/.aliases"
