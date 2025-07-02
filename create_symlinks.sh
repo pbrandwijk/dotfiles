@@ -11,3 +11,4 @@ ln -s -T ~/dotfiles/.ledgerrc ~/.ledgerrc
 ln -s -T ~/dotfiles/kitty-config ~/.config/kitty
 ln -s -T ~/dotfiles/lazyvim-config ~/.config/nvim
 ln -s -T ~/dotfiles/atuin-config ~/.config/atuin
+ln -s -T ~/dotfiles/mc-config ~/.config/mc
