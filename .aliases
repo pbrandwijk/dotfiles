@@ -32,7 +32,7 @@ alias vi="nvim"
 alias lg='lazygit'
 alias q='qalc -t -b 10'
 alias weight='cd ~/vcs/weight/ && nvim 2025.txt'
-alias acc='cd ~/vcs/accounting/ && nvim 2025.journal'
+alias acc='cd ~/vcs/accounting/ && nvim personal.journal'
 alias dots='cd ~/dotfiles/ && nvim'
 alias notes='cd ~/Sync/Notes/ && nvim'
 
