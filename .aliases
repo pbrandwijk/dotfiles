@@ -31,8 +31,8 @@ alias vim="nvim"
 alias vi="nvim"
 alias lg='lazygit'
 alias q='qalc -t -b 10'
-alias weight='cd ~/vcs/gitserver/weight/ && nvim 2025.txt'
-alias acc='cd ~/vcs/gitserver/accounting/ && nvim personal.journal'
+alias weight='cd ~/vcs/local/gitserver/weight/ && nvim 2025.txt'
+alias acc='cd ~/vcs/local/gitserver/accounting/ && nvim personal.journal'
 alias dots='cd ~/dotfiles/ && nvim'
 alias notes='cd ~/Sync/Notes/ && nvim'
 
