@@ -12,3 +12,7 @@
 [remote "origin"]
 	prune = true
 
+[pull]
+	rebase = false
+[fetch]
+	prune = true
