@@ -28,7 +28,7 @@ alias pbr='nohup sh -c '"'"'sleep 300 && zenity --warning --text="5 minuten pauz
 
 # Quick access
 alias vim="nvim"
-alias vi="nvim"
+alias vi="/usr/bin/vi"
 alias lg='lazygit'
 alias q='qalc -t -b 10'
 alias weight='cd ~/vcs/local/gitserver/weight/ && nvim 2025.txt'
